@@ -1,0 +1,44 @@
+# AWS Credentials - NEVER COMMIT THESE
+.aws/
+*.pem
+*.key
+credentials
+config
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS Specific
+lambda/package/
+lambda_function.zip
+
+# Data files (optional - uncomment if data is sensitive)
+# data/*.csv
+# facility_json_files/
+
+# Logs
+*.log
